@@ -21,3 +21,11 @@
 * 延迟加载
 * 序列化和反序列化安全
 * 反射   lazy无法解决反射问题
+
+单例容器hashmap线程不安全
+
+例子：
+* Runtime 
+* getDesktop容器单例
+* AbstractFactoryBean  getObject  
+* ErrorContext 线程隔离(mybatis)
